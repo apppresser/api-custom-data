@@ -21,7 +21,7 @@ function custom_json_api_prepare_post( $post_response, $post, $context ) {
     //$post_response['do_api_action']['default']['above_content'] = 'this is above the content';
     //$post_response['do_api_action']['default']['below_content'] = 'this is below the content';
 
-    if( 1831 === $post['ID'] ) {
+    if( 1 === $post['ID'] ) {
 	    $post_response['do_api_action']['default']['above_title'] = 'this is above the title on a single post';
     }
 
